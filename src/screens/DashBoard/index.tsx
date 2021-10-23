@@ -1,10 +1,13 @@
 import React from 'react'
-import { Container, Title } from './styles'
+
+import { Container, Header } from './styles'
 
 const Dashboard: React.FC = () => {
   return (
     <Container>
-      <Title>teste</Title>
+      <Header>
+
+      </Header>
     </Container>);
 }
 
