@@ -1,4 +1,5 @@
 import React from 'react';
+
 import {
   Container,
   Header,
@@ -28,7 +29,7 @@ export function HighlightCard({
   title,
   amount,
   lastTransaction
-}: Props) {
+} : Props){
   return (
     <Container type={type}>
       <Header>
@@ -40,6 +41,7 @@ export function HighlightCard({
           type={type}
         />
       </Header>
+
       <Footer>
         <Amount type={type}>
           {amount}
@@ -48,6 +50,7 @@ export function HighlightCard({
           {lastTransaction}
         </LastTransaction>
       </Footer>
+
     </Container>
   )
 }
